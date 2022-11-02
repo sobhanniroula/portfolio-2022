@@ -6,7 +6,11 @@ module.exports = {
     "./components/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        burtons: "burtons"
+      }
+    },
   },
   plugins: [],
 }
